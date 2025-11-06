@@ -1,0 +1,66 @@
+/* p{
+
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    font-size: 25px;
+} 
+
+.jk{
+    color: red;
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    border: 1px dashed red;
+    margin: 5px;
+    text-align: center;
+    align-content: center;
+
+}
+
+ #jk1{
+    color: green;
+    background-color: pink;
+}
+ */
+
+ 
+ .box{
+height:200px ;
+width:200px;
+text-align: center;
+align-content: center;
+display: inline-block;
+margin-top: 500px;
+}
+
+#box1{
+    color: black;
+    background-color: red;
+    border: 1px solid black;
+    margin:10px 20px 10px 20px ;
+    padding: 10px;
+
+}
+#box2{
+    color: white;
+    background-color: blue;
+    border: 2px dashed white;
+    margin:15px 25px 15px 25px ;
+    padding: 15px;
+}
+#box3{
+    color: yellow;
+    background-color: green;
+    border: 3px dotted yellow;
+    margin:20px 30px 20px 30px ;
+    padding: 20px;
+}
+#box4{
+    color: purple;
+    background-color: orange;
+    border: 4px double purple;
+    margin:25px 35px 25px 35px ;
+    padding: 25px;
+}
