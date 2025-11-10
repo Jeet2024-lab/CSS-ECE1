@@ -1,4 +1,4 @@
-/* p{
+/* /* p{
 
     color: blue;
     background-color: aqua;
@@ -26,13 +26,13 @@
  */
 
  
- .box{
+ /* .box{
 height:200px ;
 width:200px;
 text-align: center;
-align-content: center;
-display: inline-block;
-margin-top: 500px;
+align-content: center; */
+/* display: inline-block; */
+/* margin-top: 500px;
 }
 
 #box1{
@@ -41,6 +41,7 @@ margin-top: 500px;
     border: 1px solid black;
     margin:10px 20px 10px 20px ;
     padding: 10px;
+  
 
 }
 #box2{
@@ -49,6 +50,7 @@ margin-top: 500px;
     border: 2px dashed white;
     margin:15px 25px 15px 25px ;
     padding: 15px;
+      margin-left: 240px;
 }
 #box3{
     color: yellow;
@@ -56,6 +58,7 @@ margin-top: 500px;
     border: 3px dotted yellow;
     margin:20px 30px 20px 30px ;
     padding: 20px;
+      margin-left: 440px;
 }
 #box4{
     color: purple;
@@ -63,4 +66,37 @@ margin-top: 500px;
     border: 4px double purple;
     margin:25px 35px 25px 35px ;
     padding: 25px;
+    margin-left: 640px;
+}  */
+
+.container
+{
+    height: 400px;
+    width: 650px;
+    border:2px solid black;
+    margin: 100px;
+    padding: 20px;
+}
+
+.box{
+    display: inline-block;
+    height: 250px;
+    width: 150px;
+    /* margin: 5px; */
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.box1{
+background-color:chartreuse ;
+}
+
+.box2{
+background-color: brown;
+}
+
+.box3{
+background-color: skyblue;
 }
