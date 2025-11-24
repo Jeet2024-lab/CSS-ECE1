@@ -111,9 +111,8 @@ background-color: skyblue;
     flex-wrap: wrap;
     /* justify-content:center;
     align-items: center; */
-    align-content: space-around;
-    row-gap: ;
-    column-gap: ;
+    /* align-content: space-around; */
+    
 }
 
 .item{
