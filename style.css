@@ -103,4 +103,29 @@ background-color: skyblue;
 
 .container{
     display: flex;
+    height:600px;
+    width: 1200px;
+    background-color: aqua;
+    border: 1px solid black;
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    /* justify-content:center;
+    align-items: center; */
+    align-content: space-around;
+    row-gap: ;
+    column-gap: ;
+}
+
+.item{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.item3{
+    /* order: -1; */
+    /* flex-grow: 2; */
+    align-self: flex-end;
 }
